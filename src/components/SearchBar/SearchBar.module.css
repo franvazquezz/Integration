@@ -1,0 +1,34 @@
+.search {
+    /* Roundness */
+    background-color:  rgba(204, 204, 204, 0.9);
+    display: flex;
+    position: sticky;
+    top: 0;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 35px;
+    width: 300px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    ;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 7px;
+  }
+.input{
+    background-color:  rgba(204, 204, 204, 0.9);
+    color: rgba(0, 0, 0);
+    background: rgb(255, 255, 255 0.6);
+    border:rgb(250, 128, 114, 0.6);
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.boton{
+    background-color:  rgba(204, 204, 204, 0.9);
+    border:rgb(250, 128, 114, 0.6);
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
