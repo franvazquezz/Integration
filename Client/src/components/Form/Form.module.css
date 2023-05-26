@@ -1,0 +1,65 @@
+.img{ 
+    border-radius: 100%;
+    border: 3px solid white;
+    max-width: 22%;
+}
+.font{
+    font-family: 'Actor';font-size: 33px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0%;
+    font-weight:light;
+}
+.shake{
+    font-family: 'Actor';font-size: 44px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0%;
+    font-weight:light;
+    -webkit-text-stroke: 3px rgb(51, 253, 0);
+    -webkit-text-fill-color: transparent;
+    animation-duration: 6s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    animation-name: tremble;
+}
+@keyframes tremble {
+    0% {-webkit-text-stroke: 3px rgb(51, 253, 0);}
+    25%{-webkit-text-stroke: 3px rgba(51, 253, 0, 0.5);}
+    50% {-webkit-text-stroke: 3px rgb(51, 253, 0, 0);}   
+    75%{-webkit-text-stroke: 3px rgba(51, 253, 0, 0.5);}
+    100% {-webkit-text-stroke: 3px rgb(51, 253, 0);}
+}
+
+.form{
+    display:ruby;
+    justify-content: space-evenly;
+    height: 720px;
+}
+
+.label{
+    
+    font-family:'Lucida Sans', Verdana;
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 15px;
+}
+
+.input{
+    background-color:  rgba(204, 204, 204, 0.9);
+    color: rgba(0, 0, 0);
+    background: rgb(255, 255, 255 0.6);
+    border:rgb(250, 128, 114, 0.6);
+    border-radius: 50px;
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', Verdana;
+    
+}
+.boton{
+    background-color:  rgba(204, 204, 204, 0.9);
+    border:rgb(250, 128, 114, 0.6);
+    border-radius: 50px;
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', Verdana;
+}

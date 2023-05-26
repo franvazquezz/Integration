@@ -1,0 +1,28 @@
+.conta{
+    background-image:url( https://wallpapercave.com/wp/wp2863958.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cont{
+    background-color: rgb(240, 248, 255, 0.6);
+    top: 0%
+}
+.selecti {
+    background-color: rgb(220, 20, 60, 0.4);
+    border: 3px solid burlywood;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.selectd {
+    background-color: rgb(220, 20, 60, 0.4);
+    border: 3px solid burlywood;
+    border-radius: 5px;
+    margin-left: 50px;
+}
