@@ -15,6 +15,9 @@ const Nav = ({onSearch}) => {
             <button className={style.glowonhover}>Favorites</button>
             </NavLink>
             <SearchBar onSearch={onSearch}/>
+            <Link to='/'>
+            <button className={style.glowonhover}>LogOut</button>
+            </Link>
             </div>
     )
 }
