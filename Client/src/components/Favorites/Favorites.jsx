@@ -18,6 +18,7 @@ const Favorites = ({myFavorites}) => {
         else dispatch(filterCards(event.target.value));
     }
     return (
+        <div>
         <div className={style.cont}>
                 <select className={style.selecti} onChange={handleOrder}>
                     <option value="A">Ascendente</option>
@@ -30,6 +31,7 @@ const Favorites = ({myFavorites}) => {
                     <option value="Genderless">Genderless</option>
                     <option value="unknown">unknown</option>
                 </select>
+        </div>
             
         <div className={style.conta}>
             {
@@ -49,7 +51,8 @@ const Favorites = ({myFavorites}) => {
                     )
                 })
             }
-        </div></div>
+        </div>
+        </div>
     )
 };
 const mapStateToProps = (state) => {
